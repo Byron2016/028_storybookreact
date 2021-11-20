@@ -1,0 +1,33 @@
+- Build and Document React Components With Storybook
+	- https://www.youtube.com/watch?v=lWk5SntifCU
+- npx create-react-app tablr
+- npm uninstall --save react-scripts
+- Eliminar folder public.
+
+- Instalar los paquetes:
+	- npm i prop-types 8.03
+	- npm i -D storybook-css-modules-preset 8.41
+	- npm i @storybook/addon-postcss 8.58
+	
+	
+- npx sb init 9.22	
+- Borrar/cambiar de package.json scripts: 10.56
+	- eject, test, build
+	- cambiar: start.
+- Borrar contenido story 22.48
+- Agregar a main.js los addons agregados. 8.03 23.43
+- 24.35
+	- En ciertos escenrarios quiere customizar
+	  la forma en que sb compila o como luce
+	  lo puede hacer en main.js.
+	  
+- Crear Tablr.stories.js 25.43
+- Renombrar App.js a Tablr.js 26.03
+- Borrar App.css 26.10
+- Borrar archivos reportWebVitals.js y setupTests.js, Index.css 26.20
+- Cambios.
+- Llenar Tablr.stories.js 27.51
+- Crear Tablr.css 34.54
+- mdx 40.27
+	- 42.09 Agregar extension para mdx.
+		- MDX por Matija Marohnic
