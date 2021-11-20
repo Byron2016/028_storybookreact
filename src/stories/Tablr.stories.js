@@ -3,10 +3,10 @@ import { Tablr } from "../Tablr";
 export default {
   title: "Tablr - A Customizable React Table Component",
   component: Tablr,
-  // argTypes: {
-  //   rows: { control: "" },
-  //   headers: { control: "" },
-  // },
+  argTypes: {
+    rows: { control: "" },
+    headers: { control: "" },
+  },
 };
 
 const Template = (args) => <Tablr {...args} />;
